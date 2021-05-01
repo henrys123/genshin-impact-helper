@@ -275,8 +275,8 @@ if __name__ == '__main__':
   secret.append('')
   cookie = secret[0]
   sckey = secret[1]
-  seconds = random.randint(10, 300)
-  #seconds = random.randint(1, 3)
+  #seconds = random.randint(10, 300)
+  seconds = random.randint(1, 3)
 
   logging.info('将在 {} 秒后开始任务...'.format(seconds))
   time.sleep(seconds)
